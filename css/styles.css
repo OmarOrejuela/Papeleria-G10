@@ -75,37 +75,6 @@
   }
 }
 
-.card-body{
-  margin-right: auto;
-  margin-left: auto;
-}
-.card-title{ font-weight:300; }
-
-.btn{
-	font-size: 14px;
-	margin-top:20px;
-}
-
-.card{
-  margin: 0 auto;
-}
-
-.login-form{ 
-	width:330px;
-	margin:20px;
-}
-
-.sign-up{
-	text-align:center;
-	padding:20px 0 0;
-}
-
-.alert{
-	margin-bottom:-30px;
-	font-size: 13px;
-	margin-top:20px;
-}
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
