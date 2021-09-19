@@ -24,22 +24,22 @@
             </div>
         </div>
     </nav>
-    <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+    <div class="d-flex justify-content-center align-items-center altura">
         <div class="rounded" style="padding: 15px; background-color: rgb(169, 243, 218);">
             <h3 class="text-center">Ingresa a Papelería G10</h3>
             <div class="card-text">
                 <!--
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
-                <form action="" class="form" style="padding-top: 10px; margin-top: 10px; font-size: 14px;">
+                <form action="recibir.php" method="POST" class="form" style="padding-top: 10px; margin-top: 10px; font-size: 14px;">
                     <!-- to error: add class "has-danger" -->
                     <div class="form-group">
                         <label for="usuario">Usuario</label>
-                        <input type="text" class="form-control form-control-sm" id="usuario">
+                        <input type="text" class="form-control form-control-sm" name="usuario">
                     </div>
                     <div class="form-group">
                         <label for="clave">Clave</label>
                         <a href="#" style="float:right;font-size:12px;">Olvidaste la Clave?</a>
-                        <input type="password" class="form-control form-control-sm" id="clave">
+                        <input type="password" class="form-control form-control-sm" name="clave">
                     </div>
                     <button type="submit" onclick="getData()" class="btn btn-primary btn-block" style="margin-top: 10px; font-size: 14px;">Ingresa</button>
                     
